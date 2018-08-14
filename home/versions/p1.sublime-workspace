@@ -1,0 +1,1607 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"glo",
+				"global\tkeyword"
+			],
+			[
+				"i",
+				"import\tkeyword"
+			],
+			[
+				"mu",
+				"music_vae_train"
+			],
+			[
+				"FIRST",
+				"FIRST_GSFB\tstatement"
+			],
+			[
+				"quanti",
+				"quantized_primer_sequence\tstatement"
+			],
+			[
+				"Conditional",
+				"ConditionalEventSequenceEncoderDecoder\tclass"
+			],
+			[
+				"pretty",
+				"pretty_stacks\tstatement"
+			],
+			[
+				"MOD",
+				"ModWriter\tclass"
+			],
+			[
+				"PN",
+				"PITCH_NUMBER_TO_NOTE_LETTER\tstatement"
+			],
+			[
+				"music",
+				"music_pb2"
+			],
+			[
+				"out",
+				"outputVectors"
+			],
+			[
+				"pro",
+				"processRequest"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"ser",
+				"serviceWorker"
+			],
+			[
+				"get",
+				"getReservationsFromServer"
+			],
+			[
+				"save",
+				"saveSelectedCities"
+			],
+			[
+				"Ht",
+				"HTTPError"
+			],
+			[
+				"mod",
+				"modelFailure"
+			],
+			[
+				"templ",
+				"templateName"
+			],
+			[
+				"Coma",
+				"CommandError"
+			],
+			[
+				"Site",
+				"SITE_OUTPUT_DIRECTORY"
+			],
+			[
+				"auto",
+				"autocomplete\tAttr"
+			],
+			[
+				"requ",
+				"requiredBy"
+			],
+			[
+				"trans",
+				"transaction_error"
+			],
+			[
+				"mock",
+				"mock_List_create_new"
+			],
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"first",
+				"first_list_url"
+			],
+			[
+				"send_",
+				"send_login_email"
+			],
+			[
+				"wait",
+				"wait_for_row_in_list_table"
+			],
+			[
+				"find",
+				"find_elements_by_css_selector"
+			],
+			[
+				"ch",
+				"check_for_row_in_list_table"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect"
+			],
+			[
+				"adjec",
+				"adjectives"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/home/mods/_helpers.py",
+			"settings":
+			{
+				"buffer_size": 19373,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/data.py",
+			"settings":
+			{
+				"buffer_size": 47572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/ops.py",
+			"settings":
+			{
+				"buffer_size": 223854,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py",
+			"settings":
+			{
+				"buffer_size": 33687,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py",
+			"settings":
+			{
+				"buffer_size": 23118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/types.proto",
+			"settings":
+			{
+				"buffer_size": 2373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/op_def_pb2.py",
+			"settings":
+			{
+				"buffer_size": 17475,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/op_def.proto",
+			"settings":
+			{
+				"buffer_size": 6659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/ictt (opsl).py",
+			"settings":
+			{
+				"buffer_size": 6338011,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/pfn3.py",
+			"settings":
+			{
+				"buffer_size": 17743,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vae01.py",
+			"settings":
+			{
+				"buffer_size": 2827,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/ictt2.py",
+			"settings":
+			{
+				"buffer_size": 21337,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/aoh2 (etc).py",
+			"settings":
+			{
+				"buffer_size": 68563,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "originals/prev_filenamens.py",
+			"settings":
+			{
+				"buffer_size": 828955,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/aoh.py",
+			"settings":
+			{
+				"buffer_size": 79697,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pastry",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"gutter",
+				"GutterColor: Fix Current Color Scheme"
+			],
+			[
+				"GUTTER",
+				"GutterColor: Fix Current Color Scheme"
+			],
+			[
+				"package",
+				"View Package File"
+			],
+			[
+				"fold comm",
+				"Fold Comments"
+			],
+			[
+				"gutt",
+				"GutterColor: Clear Cache"
+			],
+			[
+				"pastr",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"fold",
+				"Toggle Fold Comments"
+			],
+			[
+				"comm",
+				"Fold Comments"
+			],
+			[
+				"gut",
+				"Preferences: GutterColor Settings – Default"
+			],
+			[
+				"unins",
+				"Colorsublime: Uninstall Theme"
+			],
+			[
+				"comment",
+				"Fold Comments"
+			],
+			[
+				"bookmark",
+				"SublimeBookmarks: Show Bookmarks Only In Current File "
+			],
+			[
+				"pep",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"ana",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"advanc",
+				"Set Syntax: Advanced CSV"
+			],
+			[
+				"ali",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"unic",
+				"Unicode Completion: Unicode Lookup"
+			],
+			[
+				"redin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"termina",
+				"Terminal: Open"
+			],
+			[
+				"rmeo",
+				"Package Control: Remove Package"
+			],
+			[
+				"termin",
+				"Terminal: Open"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"TERMINAL",
+				"Open Terminal View - Bash"
+			],
+			[
+				"terminal",
+				"Open Terminal View - Bash"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Boxy Theme: Activation"
+			],
+			[
+				"typew",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"box",
+				"Boxy Theme: Activation"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"mat",
+				"Material Theme: Advanced configuration"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 399.0,
+		"history":
+		[
+			"import os",
+			"p",
+			"sys.version",
+			"sys.version()",
+			"import sys",
+			"osx"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alberthan/.virtualenvs/magentaVAE",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions"
+	],
+	"file_history":
+	[
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/log.txt",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/inputs.txt",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/log.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/ut",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/types.proto",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/ops.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/originals/etc.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/netc.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/etc.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/ictt2.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/pfn.py",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/Gutter Color/line.py",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/aoh2.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/pfn3.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/test.py",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/test.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/ictt.py",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/a.css",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/b.py",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/Gutter Color/gutter_color.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/aoh.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/pfn_ns.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/data/pfn2.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/originals/prev_filenamens.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/originals/prev_filename_start.py",
+		"/Users/alberthan/anaconda/lib/python3.6/pprint.py",
+		"/Users/alberthan/.ipython/profile_default/utils/printer.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/opsl.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/lsl.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/lnl.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prev_filenamens.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prev_filename_start.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/pfn.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prev_filename.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/pfn.pk",
+		"/Users/alberthan/.ipython/profile_default/utils/lnl.py",
+		"/Users/alberthan/.ipython/profile_default/utils/lsl.py",
+		"/Users/alberthan/.ipython/profile_default/utils/etc.py",
+		"/Users/alberthan/.ipython/profile_default/utils/opsl.py",
+		"/Users/alberthan/.ipython/profile_default/utils/prev_filename.py",
+		"/Users/alberthan/.ipython/profile_default/utils/prev_filenamens.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/printer.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/lnl.pk",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prev_filename_start.pk",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prev_filenamens.pk",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prev_filename.pk",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/opsl.pk",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/etc2.pk",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/lsl.pk",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/TextPastry.sublime-settings",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prevns.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/prev.py",
+		"/Users/alberthan/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/nse.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/op_def_pb2.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/tmp1.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/tmp2.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/gen_image_ops.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/_helpers.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/gen_lookup_ops.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/convert_dir_to_note_sequences.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/tensor_shape.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/configs.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/music/midi_io.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/lstm_utils.py",
+		"/Users/alberthan/anaconda/lib/python3.6/subprocess.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/music_vae_train.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/data_hierarchical.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/lstm_models.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/base_model.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/bin/music_vae_train",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/magenta/models/music_vae/music_vae_train.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/magenta/__init__.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/mods/protobuf/music_pb2.py",
+		"/Users/alberthan/.config/fish/fishd.a860b62abfbb",
+		"/Users/alberthan/.config/fish/config.fish",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/google/protobuf/any_pb2.py",
+		"/private/etc/passwd",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/google/protobuf/pyext/_message.cpython-36m-darwin.so",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/google/protobuf/__init__.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/protobuf/meta_graph_pb2.py",
+		"/Users/alberthan/.virtualenvs/magenta1/lib/python3.6/site-packages/google/protobuf/any_pb2.py",
+		"/Users/alberthan/.virtualenvs/magenta1/lib/python3.6/site-packages/google/protobuf/any.proto",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/google/protobuf/descriptor_pb2.py",
+		"/Users/alberthan/anaconda/lib/python3.6/site-packages/virtualfish/virtual.fish",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/config.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/paths.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/mods/convert_dir_to_note_sequences.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/magenta/scripts/convert_dir_to_note_sequences.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/home/versions/01.sublime-project",
+		"/Users/alberthan/.virtualenvs/magentaVAE/bin/activate.fish",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/mods/music/chord_symbols_lib.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/bin/pip3.6",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/orig-prefix.txt",
+		"/Users/alberthan/.virtualenvs/magentaVAE/pip-selfcheck.json",
+		"/Users/alberthan/anaconda/lib/python3.6/version.txt",
+		"/Users/alberthan/.config/fish/conf.d/omf.fish",
+		"/Users/alberthan/anaconda/lib/python3.6/site-packages/virtualfish-1.0.6.dist-info/RECORD",
+		"/Users/alberthan/anaconda/lib/python3.6/site-packages/virtualfish-1.0.6.dist-info/top_level.txt",
+		"/Users/alberthan/.virtualenvs/magenta1/home/temp/001.005/data/perf/06_optional_multiconditioned_performance_with_dynamics/07_quantized_sequence.txt",
+		"/Users/alberthan/.virtualenvs/magentaVAE/bin/activate",
+		"/Users/alberthan/.virtualenvs/magentaVAE/bin/activate_this.py",
+		"/Users/alberthan/.virtualenvs/magentaVAE/bin/activate.csh",
+		"/Users/alberthan/.virtualenvs/magentaVAE/requirements.txt",
+		"/Users/alberthan/.ipython/profile_default/ipython_config.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/temp/001.005/tmp.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/mods/gen_inspect/tmp.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/refs/_DLTs/code/rnnrbm.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/refs/_steps/midi/utils.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/refs/_steps/midi.zip",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/refs/_steps/Huang, A., & Wu, R. (2016). Deep learning for music.pdf",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/refs/_steps/midi/__init__.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/refs/_steps/midi/readme.txt",
+		"/Users/alberthan/.virtualenvs/magenta1/lib/python3.6/site-packages/google/protobuf/text_format.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/mods/music/expressions.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/mods/music/performance_lib.py",
+		"/Users/alberthan/.virtualenvs/magenta1/home/perm/refs/midi_pitches.jpg"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#asdf",
+			"\\* _apply_op_helper------------------------------------------------------(\\d{3})",
+			"* _apply_op_helper------------------------------------------------------\\d{3}",
+			"* _apply_op_helper------------------------------------------------------406",
+			"scope: encoder/cell_0/bidirectional_rnn/bw/ReverseSequence/",
+			"#asdf",
+			"  if ctx is None: ctx = context.context() #1\n",
+			"1093",
+			"([])",
+			"values:",
+			"scope: encoder/cell_0/bidirectional_rnn/bw/ReverseSequence",
+			"values: Tensor(\"strided_slice_1:0\",",
+			"0x129b16378",
+			"1093",
+			"asdf",
+			"}",
+			"([])",
+			"(  \\d{3} \\(\\d+\\))",
+			"#asdf",
+			"match",
+			"attrs",
+			"390",
+			"387",
+			"38",
+			"387",
+			"* _apply_op_helper------------------------------------------------------",
+			"^  \\d{3}",
+			"42821",
+			"_apply_op_helper",
+			"343 ",
+			"343",
+			"_apply_op_helper",
+			"v",
+			"for v in vs:",
+			"os.remove(j(",
+			"a-z",
+			"f.write(s(v))",
+			"nv = ''",
+			".py'))",
+			")):"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"* _apply_op_helper------------------------------------------------------$1 #asdf",
+			"$1, 'aoh'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/home/mods/_helpers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"complete_parameters": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2155.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/home/mods/models/music_vae/data.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44735,
+								44735
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/ops.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 223854,
+						"regions":
+						{
+							"gutter_color_36719":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										36719,
+										36775
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_36720":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										36719,
+										36775
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								34841,
+								34841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16961.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33687,
+						"regions":
+						{
+							"gutter_color_13383":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										13383,
+										13435
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13436":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										13436,
+										13482
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13483":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										13483,
+										13541
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13542":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										13542,
+										13612
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19433":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19432,
+										19515
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19470":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19432,
+										19515
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19644":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19643,
+										19717
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19681":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19643,
+										19717
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19719":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19718,
+										19764
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19756":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19718,
+										19764
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19766":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19765,
+										19814
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19803":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19765,
+										19814
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19816":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19815,
+										19860
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_19853":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										19815,
+										19860
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								13335,
+								13335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5865.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2871,
+								2871
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/types.proto",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Protobuf Syntax Hightlighting/Protobuf.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/op_def_pb2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/core/framework/op_def.proto",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3607,
+								3607
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Protobuf Syntax Hightlighting/Protobuf.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "data/ictt (opsl).py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6338011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6337275,
+								6337275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2416083.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "data/pfn3.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17743,
+						"regions":
+						{
+							"gutter_color_1967":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1967,
+										1990
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2027":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										2027,
+										2050
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2087":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										2087,
+										2110
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2129":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/yellow.png",
+								"regions":
+								[
+									[
+										2129,
+										2155
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2174":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										2174,
+										2197
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2216":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/yellow.png",
+								"regions":
+								[
+									[
+										2216,
+										2242
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2261":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										2261,
+										2286
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2385":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										2385,
+										2408
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9901":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										9901,
+										9928
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								41,
+								57
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3289.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "vae01.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 149.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "data/ictt2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21337,
+						"regions":
+						{
+							"gutter_color_11856":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										11856,
+										11943
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11894":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										11856,
+										11943
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								13226,
+								13226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 652.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "data/aoh2 (etc).py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50352,
+								50361
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "originals/prev_filenamens.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 828955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828229,
+								828234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 275288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "data/aoh.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46212,
+								46212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.525584589321,
+			0.677602176244,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 94.0
+	},
+	"output.exec":
+	{
+		"height": 453.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "p1.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

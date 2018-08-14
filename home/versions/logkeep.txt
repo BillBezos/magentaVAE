@@ -1,0 +1,103 @@
+{'reset': '\x1b[0m', 'normal': '\x1b[22m', 'filename': '', 'colon': '\x1b[1m\x1b[30m', 'lineno': '\x1b[0m', 'kind': '\x1b[36m', 'continuation': '\x1b[1m\x1b[34m', 'call': '\x1b[1m\x1b[34m', 'return': '\x1b[1m\x1b[32m', 'exception': '\x1b[1m\x1b[31m', 'detail': '\x1b[22m',
+
+'vars': '\x1b[0m\x1b[35m',
+'vars-name': '\x1b[1m',
+'internal-failure': '\x1b[1m\x1b[41m\x1b[31m', 'internal-detail': '\x1b[37m', 'source-failure': '\x1b[1m\x1b[43m\x1b[33m', 'source-detail': '\x1b[37m'}
+
+MainThread                                         ?     _a[0m[35m_bvars     _c _d[1m_elocals()_f _g[0m[35m_h=> _i[0m_j{'ctx': <tensorflow.python.eager.context.Context object at 0x11dd1a6d8>, 'preferred_dtype': None, 'as_ref': False, 'name': 'tensor', 'dtype': None, 'value': <tf.Tensor 'hparams:0' shape=() dtype=string>, 'unwrapped_type': <class 'tensorflow.python.framework.ops.Tensor'>, 'conversion_func_list': [(<class 'tensorflow.python.framework.ops.Tensor'>, <function _TensorTensorConversionFunction at 0x10e1e3048>), (<class 'object'>, <function _constant_tensor_conversion_function at 0x10e2ad730>)]}_k[0m_l
+NoneType: None
+Stack (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevconsole.py", line 511, in <module>
+    pydevconsole.start_server(host, int(port), int(client_port), client_host)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevconsole.py", line 336, in start_server
+    process_exec_queue(interpreter)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevconsole.py", line 192, in process_exec_queue
+    more = interpreter.add_exec(code_fragment)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/_pydev_bundle/pydev_console_utils.py", line 281, in add_exec
+    more = self.do_add_exec(code_fragment)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/_pydev_bundle/pydev_ipython_console.py", line 41, in do_add_exec
+    res = bool(self.interpreter.add_exec(code_fragment.text))
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py", line 442, in add_exec
+    self.ipython.run_cell(line, store_history=True)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2662, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2785, in _run_cell
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2909, in run_ast_nodes
+    if self.run_code(code, result):
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2963, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-3-327d8d8db58d>", line 1, in <module>
+    get_ipython().run_line_magic('run', 'vae01.py')
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2131, in run_line_magic
+    result = fn(*args,**kwargs)
+  File "<decorator-gen-60>", line 2, in run
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/magic.py", line 187, in <lambda>
+    call = lambda f, *a, **k: f(*a, **k)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/magics/execution.py", line 775, in run
+    run()
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/magics/execution.py", line 761, in run
+    exit_ignore=exit_ignore)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2527, in safe_execfile
+    self.compile if shell_futures else None)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/IPython/utils/py3compat.py", line 188, in execfile
+    exec(compiler(f.read(), fname, 'exec'), glob, loc)
+  File "/Users/alberthan/PycharmProjects/magentaVAE/home/versions/vae01.py", line 187, in <module>
+    tf.app.run(main, _args)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 126, in run
+    _sys.exit(main(argv))
+  File "/Users/alberthan/PycharmProjects/magentaVAE/home/mods/models/music_vae/music_vae_train.py", line 322, in main
+    run(configs.CONFIG_MAP)
+  File "/Users/alberthan/PycharmProjects/magentaVAE/home/mods/models/music_vae/music_vae_train.py", line 304, in run
+    task=FLAGS.task)
+  File "/Users/alberthan/PycharmProjects/magentaVAE/home/mods/models/music_vae/music_vae_train.py", line 163, in train
+    is_training=True)
+  File "/Users/alberthan/PycharmProjects/magentaVAE/home/mods/models/music_vae/base_model.py", line 158, in build
+    self.global_step = tf.train.get_or_create_global_step()
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/training/training_util.py", line 158, in get_or_create_global_step
+    global_step_tensor = create_global_step(graph)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/training/training_util.py", line 141, in create_global_step
+    ops.GraphKeys.GLOBAL_STEP])
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 1317, in get_variable
+    constraint=constraint)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 1079, in get_variable
+    constraint=constraint)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 425, in get_variable
+    constraint=constraint)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 394, in _true_getter
+    use_resource=use_resource, constraint=constraint)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 786, in _get_single_variable
+    use_resource=use_resource)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 2220, in variable
+    use_resource=use_resource)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 2210, in <lambda>
+    previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 2193, in default_variable_creator
+    constraint=constraint)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 235, in __init__
+    constraint=constraint)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 387, in _init_from_args
+    validate_shape=validate_shape).op
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 283, in assign
+    validate_shape=validate_shape)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 60, in assign
+    use_locking=use_locking, name=name)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 755, in _apply_op_helper
+    elif attr_def.type == "bool":
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/hunter/tracer.py", line 51, in __call__
+    self._handler(Event(frame, kind, arg, self))
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/hunter/predicates.py", line 264, in __call__
+    if self.condition(event):
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/hunter/predicates.py", line 350, in __call__
+    if predicate(event):
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/hunter/predicates.py", line 266, in __call__
+    action(event)
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/hunter/actions.py", line 421, in __call__
+    **self.event_colors
+  File "/Users/alberthan/.virtualenvs/magentaVAE/lib/python3.6/site-packages/hunter/actions.py", line 389, in <lambda>
+    extra={'a': 1})
+
+[...]/python/framework/op_def_library.py[1m[30m:[0m755   [36mline      [0m   elif attr_def.type == "bool":
+VarsPrinter of hunter.actions
+NoneType: None
+Stack (most recent call last):

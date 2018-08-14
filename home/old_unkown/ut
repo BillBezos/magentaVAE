@@ -1,0 +1,806 @@
+Time	Sum	Command
+1521	64291	> builtin source /usr/local/Cellar/fish/2.7.1/share/fish/config.fish
+41	41	-> set -g IFS \n\ \t
+10	10	-> set -qg __fish_added_user_paths
+10	10	-> or set -g __fish_added_user_paths
+15	15	-> function __fish_default_command_not_found_handler...
+17	17	-> set -g version $FISH_VERSION
+7	480	-> if status --is-interactive...
+11	11	--> status --is-interactive
+13	462	--> if not contains -- "string" (builtin -n)...
+256	289	---> not contains -- "string" (builtin -n)
+33	33	----> builtin -n
+12	160	---> if not set -q NVIM_LISTEN_ADDRESS...
+9	9	----> not set -q NVIM_LISTEN_ADDRESS
+21	21	----> and not set -q STY
+65	65	----> and not string match -q -- 'eterm*' $TERM
+13	34	----> and begin
+                set -q KONSOLE_PROFILE_NAME # KDE's konsole
+                or string match -q -- "*:*" $ITERM_SESSION_ID # Supporting versions of iTerm2 will include a colon here
+                or string match -q -- "st-*" $TERM # suckless' st
+                or test -n "$VTE_VERSION" -a "$VTE_VERSION" -ge 3600 # Should be all gtk3-vte-based terms after version 3.6.0.0
+                or test "$COLORTERM" = truecolor -o "$COLORTERM" = 24bit # slang expects this
+            end
+7	7	-----> set -q KONSOLE_PROFILE_NAME
+14	14	-----> or string match -q -- "*:*" $ITERM_SESSION_ID
+6	6	----> set -q fish_term24bit
+13	13	----> or set -g fish_term24bit 1
+76	76	-> set -l configdir ~/.config
+6	14	-> if set -q XDG_CONFIG_HOME...
+8	8	--> set -q XDG_CONFIG_HOME
+27	27	-> set -l userdatadir ~/.local/share
+4	10	-> if set -q XDG_DATA_HOME...
+6	6	--> set -q XDG_DATA_HOME
+11	11	-> set -l __extra_completionsdir
+8	8	-> set -l __extra_functionsdir
+8	8	-> set -l __extra_confdir
+7	151	-> if test -f $__fish_datadir/__fish_build_paths.fish...
+33	33	--> test -f $__fish_datadir/__fish_build_paths.fish
+76	111	--> source $__fish_datadir/__fish_build_paths.fish
+12	12	---> set __extra_completionsdir /usr/local/share/fish/vendor_completions.d
+10	10	---> set __extra_functionsdir /usr/local/share/fish/vendor_functions.d
+13	13	---> set __extra_confdir /usr/local/share/fish/vendor_conf.d
+5	41	-> if not set -q fish_function_path...
+5	5	--> not set -q fish_function_path
+31	31	--> set fish_function_path $configdir/fish/functions $__fish_sysconfdir/functions $__extra_functionsdir $__fish_datadir/functions
+5	71	-> if not contains -- $__fish_datadir/functions $fish_function_path...
+66	66	--> not contains -- $__fish_datadir/functions $fish_function_path
+6	66	-> if not set -q fish_complete_path...
+25	25	--> not set -q fish_complete_path
+35	35	--> set fish_complete_path $configdir/fish/completions $__fish_sysconfdir/completions $__extra_completionsdir $__fish_datadir/completions $userdatadir/fish/generated_completions
+4	33	-> if not contains -- $__fish_datadir/completions $fish_complete_path...
+29	29	--> not contains -- $__fish_datadir/completions $fish_complete_path
+5	31	-> if test -d /usr/xpg4/bin...
+26	26	--> test -d /usr/xpg4/bin
+48	48	-> set -g __fish_tmp_path $PATH
+6	6	-> function __fish_load_path_helper_paths...
+16	16	-> test -r /etc/paths
+80	1306	-> and __fish_load_path_helper_paths </etc/paths
+58	58	--> set __fish_tmp_path $__fish_tmp_path[-1..1]
+19	1118	--> while read -l new_path_comp...
+52	52	---> read -l new_path_comp
+9	192	---> if test -d $new_path_comp...
+17	17	----> test -d $new_path_comp
+44	94	----> set -l where (contains -i -- $new_path_comp $__fish_tmp_path)
+50	50	-----> contains -i -- $new_path_comp $__fish_tmp_path
+24	24	----> and set -e __fish_tmp_path[$where]
+48	48	----> set __fish_tmp_path $new_path_comp $__fish_tmp_path
+18	18	---> read -l new_path_comp
+10	218	---> if test -d $new_path_comp...
+17	17	----> test -d $new_path_comp
+58	106	----> set -l where (contains -i -- $new_path_comp $__fish_tmp_path)
+48	48	-----> contains -i -- $new_path_comp $__fish_tmp_path
+29	29	----> and set -e __fish_tmp_path[$where]
+56	56	----> set __fish_tmp_path $new_path_comp $__fish_tmp_path
+20	20	---> read -l new_path_comp
+9	193	---> if test -d $new_path_comp...
+18	18	----> test -d $new_path_comp
+45	93	----> set -l where (contains -i -- $new_path_comp $__fish_tmp_path)
+48	48	-----> contains -i -- $new_path_comp $__fish_tmp_path
+24	24	----> and set -e __fish_tmp_path[$where]
+49	49	----> set __fish_tmp_path $new_path_comp $__fish_tmp_path
+18	18	---> read -l new_path_comp
+10	180	---> if test -d $new_path_comp...
+16	16	----> test -d $new_path_comp
+40	84	----> set -l where (contains -i -- $new_path_comp $__fish_tmp_path)
+44	44	-----> contains -i -- $new_path_comp $__fish_tmp_path
+23	23	----> and set -e __fish_tmp_path[$where]
+47	47	----> set __fish_tmp_path $new_path_comp $__fish_tmp_path
+18	18	---> read -l new_path_comp
+9	176	---> if test -d $new_path_comp...
+16	16	----> test -d $new_path_comp
+39	82	----> set -l where (contains -i -- $new_path_comp $__fish_tmp_path)
+43	43	-----> contains -i -- $new_path_comp $__fish_tmp_path
+23	23	----> and set -e __fish_tmp_path[$where]
+46	46	----> set __fish_tmp_path $new_path_comp $__fish_tmp_path
+14	14	---> read -l new_path_comp
+50	50	--> set __fish_tmp_path $__fish_tmp_path[-1..1]
+82	912	-> for pathfile in /etc/paths.d/*...
+84	423	--> __fish_load_path_helper_paths <$pathfile
+57	57	---> set __fish_tmp_path $__fish_tmp_path[-1..1]
+7	232	---> while read -l new_path_comp...
+20	20	----> read -l new_path_comp
+11	190	----> if test -d $new_path_comp...
+18	18	-----> test -d $new_path_comp
+42	91	-----> set -l where (contains -i -- $new_path_comp $__fish_tmp_path)
+49	49	------> contains -i -- $new_path_comp $__fish_tmp_path
+23	23	-----> and set -e __fish_tmp_path[$where]
+47	47	-----> set __fish_tmp_path $new_path_comp $__fish_tmp_path
+15	15	----> read -l new_path_comp
+50	50	---> set __fish_tmp_path $__fish_tmp_path[-1..1]
+79	407	--> __fish_load_path_helper_paths <$pathfile
+51	51	---> set __fish_tmp_path $__fish_tmp_path[-1..1]
+9	226	---> while read -l new_path_comp...
+18	18	----> read -l new_path_comp
+10	184	----> if test -d $new_path_comp...
+17	17	-----> test -d $new_path_comp
+40	87	-----> set -l where (contains -i -- $new_path_comp $__fish_tmp_path)
+47	47	------> contains -i -- $new_path_comp $__fish_tmp_path
+23	23	-----> and set -e __fish_tmp_path[$where]
+47	47	-----> set __fish_tmp_path $new_path_comp $__fish_tmp_path
+15	15	----> read -l new_path_comp
+51	51	---> set __fish_tmp_path $__fish_tmp_path[-1..1]
+60	60	-> set -xg PATH $__fish_tmp_path
+11	11	-> set -e __fish_tmp_path
+31	31	-> functions -e __fish_load_path_helper_paths
+5	12	-> if set -q MANPATH...
+7	7	--> set -q MANPATH
+15	15	-> function __fish_reconstruct_path -d "Update PATH when fish_user_paths changes" --on-variable fish_user_paths...
+96	227	-> __fish_reconstruct_path
+47	47	--> set -l local_path $PATH
+7	7	--> for x in $__fish_added_user_paths...
+10	10	--> set -g __fish_added_user_paths
+5	11	--> if set -q fish_user_paths...
+6	6	---> set -q fish_user_paths
+56	56	--> set -xg PATH $local_path
+21	21	-> function fish_sigtrap_handler --on-signal TRAP --no-scope-shadowing --description "Signal handler for the TRAP signal. Launches a debug prompt."...
+8	8	-> function __fish_on_interactive --on-event fish_prompt...
+9	9	-> function . --description 'Evaluate contents of file (deprecated, see "source")' --no-scope-shadowing...
+254	856	-> __fish_set_locale
+413	438	--> source /usr/local/Cellar/fish/2.7.1/share/fish/functions/__fish_set_locale.fish
+25	25	---> function __fish_set_locale...
+16	16	--> set -l LOCALE_VARS
+23	23	--> set LOCALE_VARS $LOCALE_VARS LANG LANGUAGE LC_CTYPE LC_NUMERIC LC_TIME LC_COLLATE
+30	30	--> set LOCALE_VARS $LOCALE_VARS LC_MONETARY LC_MESSAGES LC_PAPER LC_NAME LC_ADDRESS
+37	37	--> set LOCALE_VARS $LOCALE_VARS LC_TELEPHONE LC_MEASUREMENT LC_IDENTIFICATION
+38	58	--> for locale_var in $LOCALE_VARS LC_ALL...
+6	20	---> if set -q $locale_var...
+10	10	----> set -q $locale_var
+4	4	----> return 0
+10	10	-> set -l sourcelist
+89	57995	-> for file in $configdir/fish/conf.d/*.fish $__fish_sysconfdir/conf.d/*.fish $__extra_confdir/*.fish...
+62	586	--> set -l basename (string replace -r '^.*/' '' -- $file)
+173	524	---> string replace -r '^.*/' '' -- $file
+175	351	----> source /usr/local/Cellar/fish/2.7.1/share/fish/functions/string.fish
+5	176	-----> if not contains string (builtin -n)...
+149	171	------> not contains string (builtin -n)
+22	22	-------> builtin -n
+22	22	--> contains -- $basename $sourcelist
+22	22	--> set sourcelist $sourcelist $basename
+117	117	--> [ -f $file -a -r $file ]
+85	57159	--> and source $file
+10	10	---> set -q XDG_DATA_HOME
+17	17	---> or set -gx OMF_PATH "$HOME/.local/share/omf"
+295	57047	---> source $OMF_PATH/init.fish
+6	15	----> if not set -q OMF_CONFIG...
+9	9	-----> not set -q OMF_CONFIG
+17	17	----> test -f $OMF_CONFIG/before.init.fish
+28	28	----> emit perf:timer:start "Oh My Fish initialisation"
+16	16	----> test -f $OMF_CONFIG/theme
+33	33	----> and read -l theme < $OMF_CONFIG/theme
+21	21	----> set -l core_function_path $OMF_PATH/lib{,/git}
+218	218	----> set -l theme_function_path {$OMF_CONFIG,$OMF_PATH}/themes*/$theme{,/functions}
+45	45	----> set fish_function_path $fish_function_path[1] \
+                       $core_function_path \
+                       $theme_function_path \
+                       $fish_function_path[2..-1]
+47	47	----> emit perf:timer:start "Oh My Fish init installed packages"
+321	54788	----> require --path {$OMF_PATH,$OMF_CONFIG}/pkg/*
+361	367	-----> source /Users/alberthan/.local/share/omf/lib/require.fish
+6	6	------> function require...
+60	60	-----> set packages $argv
+5	48	-----> if test -z "$packages"...
+43	43	------> test -z "$packages"
+4	92	-----> if set index (contains -i -- --no-bundle $packages)...
+39	88	------> set index (contains -i -- --no-bundle $packages)
+49	49	-------> contains -i -- --no-bundle $packages
+7	109	-----> if set index (contains -i -- --path $packages)...
+38	62	------> set index (contains -i -- --path $packages)
+24	24	-------> contains -i -- --path $packages
+19	19	------> set -e packages[$index]
+21	21	------> set package_path $packages
+118	118	-----> set function_path $package_path/functions*
+103	103	-----> set complete_path $package_path/completions*
+103	103	-----> set init_path $package_path/init.fish*
+16	16	-----> test -n "$function_path"
+55	55	-----> and set fish_function_path $fish_function_path[1] \
+                               $function_path \
+                               $fish_function_path[2..-1]
+58	58	-----> test -n "$complete_path"
+75	75	-----> and set fish_complete_path $fish_complete_path[1] \
+                               $complete_path \
+                               $fish_complete_path[2..-1]
+70	53254	-----> for init in $init_path...
+49	49	------> emit perf:timer:start $init
+12	12	------> set -l IFS '/'
+785	785	------> echo $init | read -la components
+62	157	------> set path (printf '/%s' $components[1..-2])
+95	95	-------> printf '/%s' $components[1..-2]
+54	54	------> contains $path $omf_init_path
+16	16	------> set package $components[-2]
+8	60	------> if not set -q ignore_bundle...
+7	7	-------> not set -q ignore_bundle
+15	15	-------> set bundle $path/bundle
+10	10	-------> set dependencies
+5	20	-------> if test -f $bundle...
+15	15	--------> test -f $bundle
+209	8332	------> source $init $path
+17	17	-------> set -g OMF_MISSING_ARG   1
+11	11	-------> set -g OMF_UNKNOWN_OPT   2
+10	10	-------> set -g OMF_INVALID_ARG   3
+10	10	-------> set -g OMF_UNKNOWN_ERR   4
+5	5	-------> function omf::em...
+6	6	-------> function omf::dim...
+5	5	-------> function omf::err...
+4	4	-------> function omf::under...
+3	3	-------> function omf::off...
+168	8052	-------> autoload $path/functions/{compat,core,index,packages,themes,bundle,util,repo,cli,search}
+359	376	--------> source /Users/alberthan/.local/share/omf/lib/autoload.fish
+8	8	---------> function autoload...
+5	5	---------> function __autoload_insert...
+4	4	---------> function __autoload_erase...
+32	7508	--------> switch "$argv[1]"...
+42	121	---------> test (count $argv) -ge 1
+79	79	----------> count $argv
+188	7355	---------> and __autoload_insert $argv
+12	12	----------> set -l function_path
+10	10	----------> set -l complete_path
+231	6917	----------> for path in $argv...
+20	20	-----------> not test -d "$path"
+12	12	-----------> set -l IFS '/'
+579	579	-----------> echo $path | read -la components
+11	112	-----------> if test "x$components[-1]" = xcompletions...
+29	29	------------> test "x$components[-1]" = xcompletions
+51	51	------------> contains -- $path $fish_function_path
+21	21	------------> or set function_path $function_path $path
+22	22	-----------> not test -d "$path"
+13	13	-----------> set -l IFS '/'
+575	575	-----------> echo $path | read -la components
+10	108	-----------> if test "x$components[-1]" = xcompletions...
+29	29	------------> test "x$components[-1]" = xcompletions
+45	45	------------> contains -- $path $fish_function_path
+24	24	------------> or set function_path $function_path $path
+23	23	-----------> not test -d "$path"
+12	12	-----------> set -l IFS '/'
+578	578	-----------> echo $path | read -la components
+11	116	-----------> if test "x$components[-1]" = xcompletions...
+29	29	------------> test "x$components[-1]" = xcompletions
+48	48	------------> contains -- $path $fish_function_path
+28	28	------------> or set function_path $function_path $path
+23	23	-----------> not test -d "$path"
+12	12	-----------> set -l IFS '/'
+569	569	-----------> echo $path | read -la components
+12	119	-----------> if test "x$components[-1]" = xcompletions...
+29	29	------------> test "x$components[-1]" = xcompletions
+47	47	------------> contains -- $path $fish_function_path
+31	31	------------> or set function_path $function_path $path
+23	23	-----------> not test -d "$path"
+12	12	-----------> set -l IFS '/'
+559	559	-----------> echo $path | read -la components
+11	125	-----------> if test "x$components[-1]" = xcompletions...
+31	31	------------> test "x$components[-1]" = xcompletions
+49	49	------------> contains -- $path $fish_function_path
+34	34	------------> or set function_path $function_path $path
+23	23	-----------> not test -d "$path"
+12	12	-----------> set -l IFS '/'
+571	571	-----------> echo $path | read -la components
+11	126	-----------> if test "x$components[-1]" = xcompletions...
+29	29	------------> test "x$components[-1]" = xcompletions
+48	48	------------> contains -- $path $fish_function_path
+38	38	------------> or set function_path $function_path $path
+22	22	-----------> not test -d "$path"
+13	13	-----------> set -l IFS '/'
+597	597	-----------> echo $path | read -la components
+11	127	-----------> if test "x$components[-1]" = xcompletions...
+29	29	------------> test "x$components[-1]" = xcompletions
+46	46	------------> contains -- $path $fish_function_path
+41	41	------------> or set function_path $function_path $path
+22	22	-----------> not test -d "$path"
+14	14	-----------> set -l IFS '/'
+578	578	-----------> echo $path | read -la components
+11	129	-----------> if test "x$components[-1]" = xcompletions...
+29	29	------------> test "x$components[-1]" = xcompletions
+48	48	------------> contains -- $path $fish_function_path
+41	41	------------> or set function_path $function_path $path
+23	23	-----------> not test -d "$path"
+15	15	-----------> set -l IFS '/'
+625	625	-----------> echo $path | read -la components
+13	154	-----------> if test "x$components[-1]" = xcompletions...
+30	30	------------> test "x$components[-1]" = xcompletions
+59	59	------------> contains -- $path $fish_function_path
+52	52	------------> or set function_path $function_path $path
+20	20	-----------> not test -d "$path"
+3	3	-----------> and continue
+18	18	----------> test -n "$function_path"
+91	91	----------> and set fish_function_path $fish_function_path[1] $function_path $fish_function_path[2..-1]
+115	115	----------> test -n "$complete_path"
+4	4	----------> return 0
+90	90	------> emit init_$package $path
+94	94	------> set -g omf_init_path $omf_init_path $path
+11	11	------> emit perf:timer:finish $init
+9	9	------> emit perf:timer:start $init
+12	12	------> set -l IFS '/'
+793	793	------> echo $init | read -la components
+66	193	------> set path (printf '/%s' $components[1..-2])
+127	127	-------> printf '/%s' $components[1..-2]
+93	93	------> contains $path $omf_init_path
+16	16	------> set package $components[-2]
+9	64	------> if not set -q ignore_bundle...
+8	8	-------> not set -q ignore_bundle
+15	15	-------> set bundle $path/bundle
+11	11	-------> set dependencies
+5	21	-------> if test -f $bundle...
+16	16	--------> test -f $bundle
+220	232	------> source $init $path
+12	12	-------> function init -a path --on-event init_vcs...
+37	41920	------> emit init_$package $path
+72	41883	-------> init /Users/alberthan/.local/share/omf/pkg/vcs
+19	344	--------> for vcs in git hg svn...
+121	130	---------> source $path/functions/$vcs/vcs.$vcs.present.fish
+9	9	----------> function vcs.git.present...
+112	118	---------> source $path/functions/$vcs/vcs.$vcs.present.fish
+6	6	----------> function vcs.hg.present...
+72	77	---------> source $path/functions/$vcs/vcs.$vcs.present.fish
+5	5	----------> function vcs.svn.present...
+171	1969	--------> autoload $path/functions/none
+357	388	---------> source /Users/alberthan/.local/share/omf/lib/autoload.fish
+6	6	----------> function autoload...
+14	14	----------> function __autoload_insert...
+11	11	----------> function __autoload_erase...
+26	1410	---------> switch "$argv[1]"...
+38	132	----------> test (count $argv) -ge 1
+94	94	-----------> count $argv
+120	1252	----------> and __autoload_insert $argv
+13	13	-----------> set -l function_path
+11	11	-----------> set -l complete_path
+37	891	-----------> for path in $argv...
+24	24	------------> not test -d "$path"
+12	12	------------> set -l IFS '/'
+677	677	------------> echo $path | read -la components
+12	141	------------> if test "x$components[-1]" = xcompletions...
+36	36	-------------> test "x$components[-1]" = xcompletions
+73	73	-------------> contains -- $path $fish_function_path
+20	20	-------------> or set function_path $function_path $path
+16	16	-----------> test -n "$function_path"
+88	88	-----------> and set fish_function_path $fish_function_path[1] $function_path $fish_function_path[2..-1]
+109	109	-----------> test -n "$complete_path"
+4	4	-----------> return 0
+13	13	--------> function vcs.refresh -v PWD -V path...
+51	39485	--------> vcs.refresh
+189	4760	---------> autoload -e $path/functions/{git,hg,svn,none}
+443	465	----------> source /Users/alberthan/.local/share/omf/lib/autoload.fish
+6	6	-----------> function autoload...
+7	7	-----------> function __autoload_insert...
+9	9	-----------> function __autoload_erase...
+23	4106	----------> switch "$argv[1]"...
+38	145	-----------> test (count $argv) -ge 2
+107	107	------------> count $argv
+104	3938	-----------> and __autoload_erase $argv[2..-1]
+93	93	------------> set -l function_indexes
+11	11	------------> set -l complete_indexes
+110	3578	------------> for path in $argv...
+12	12	-------------> set -l IFS '/'
+831	831	-------------> echo $path | read -la components
+41	41	-------------> test "x$components[-1]" = xcompletions
+51	216	-------------> or  set function_indexes $function_indexes (contains -i $path $fish_function_path)
+165	165	--------------> contains -i $path $fish_function_path
+14	14	-------------> set -l IFS '/'
+634	634	-------------> echo $path | read -la components
+31	31	-------------> test "x$components[-1]" = xcompletions
+50	125	-------------> or  set function_indexes $function_indexes (contains -i $path $fish_function_path)
+75	75	--------------> contains -i $path $fish_function_path
+13	13	-------------> set -l IFS '/'
+601	601	-------------> echo $path | read -la components
+30	30	-------------> test "x$components[-1]" = xcompletions
+50	133	-------------> or  set function_indexes $function_indexes (contains -i $path $fish_function_path)
+83	83	--------------> contains -i $path $fish_function_path
+14	14	-------------> set -l IFS '/'
+611	611	-------------> echo $path | read -la components
+31	31	-------------> test "x$components[-1]" = xcompletions
+54	131	-------------> or  set function_indexes $function_indexes (contains -i $path $fish_function_path)
+77	77	--------------> contains -i $path $fish_function_path
+13	13	------------> test -n "$function_indexes"
+32	32	------------> and set -e fish_function_path[$function_indexes]
+104	104	------------> test -n "$complete_indexes"
+3	3	------------> return 0
+8	32573	---------> if set -l vcs (vcs.name)...
+129	32565	----------> set -l vcs (vcs.name)
+177	32436	-----------> vcs.name
+175	181	------------> source /Users/alberthan/.local/share/omf/pkg/vcs/functions/vcs.name.fish
+6	6	-------------> function vcs.name...
+19	32073	------------> for name in git hg svn...
+5	12808	-------------> if eval vcs.$name.present...
+264	12803	--------------> eval vcs.$name.present
+227	248	---------------> source /usr/local/Cellar/fish/2.7.1/share/fish/functions/eval.fish
+21	21	----------------> function eval -S -d "Evaluate parameters as a command"...
+20	20	---------------> set -l status_copy $status
+7	7	---------------> function __fish_restore_status...
+7	31	---------------> if not set -q argv[2]...
+10	10	----------------> not set -q argv[2]
+14	14	----------------> switch "$argv[1]"...
+14	14	---------------> set -l mode
+8	224	---------------> if status --is-interactive-job-control...
+188	188	----------------> status --is-interactive-job-control
+28	28	----------------> set mode interactive
+8	28	---------------> if status --is-interactive...
+11	11	----------------> status --is-interactive
+9	9	----------------> status --job-control full
+33	43	---------------> __fish_restore_status $status_copy
+10	10	----------------> return $argv[1]
+1228	11871	---------------> echo "begin; $argv "\n" ;end <&3 3<&-" | source 3<&0
+29	10643	----------------> begin; vcs.git.present 
+ ;end <&3 3<&-
+111	10614	-----------------> vcs.git.present
+518	2212	------------------> type -q git
+567	594	-------------------> source /usr/local/Cellar/fish/2.7.1/share/fish/functions/type.fish
+27	27	--------------------> function type --description 'Print the type of a command'...
+18	18	-------------------> set -q argv[1]
+40	40	-------------------> set -l options 'h/help' 'a/all' 'f/no-functions' 't/type' 'p/path' 'P/force-path' 'q/quiet'
+169	169	-------------------> argparse -n type --min-args=1 -x t,p,P $options -- $argv
+6	18	-------------------> if set -q _flag_help...
+12	12	--------------------> set -q _flag_help
+13	13	-------------------> set -l res 1
+12	12	-------------------> set -l mode normal
+13	13	-------------------> set -l multi no
+13	13	-------------------> set -l selection all
+7	28	-------------------> if set -q _flag_quiet...
+9	9	--------------------> set -q _flag_quiet
+12	12	--------------------> set mode quiet
+8	8	-------------------> set -q _flag_all
+8	8	-------------------> set -q _flag_no_functions
+19	752	-------------------> for i in $argv...
+12	12	--------------------> set -l found 0
+8	464	--------------------> if test $selection != files...
+14	14	---------------------> test $selection != files
+6	171	---------------------> if functions -q -- $i...
+165	165	----------------------> functions -q -- $i
+6	271	---------------------> if contains -- $i (builtin -n)...
+234	265	----------------------> contains -- $i (builtin -n)
+31	31	-----------------------> builtin -n
+16	16	--------------------> set -l paths
+7	145	--------------------> if test $multi != yes...
+13	13	---------------------> test $multi != yes
+53	125	---------------------> set paths (command -s -- $i)
+72	72	----------------------> command -s -- $i
+19	77	--------------------> for path in $paths...
+12	12	---------------------> set res 0
+12	12	---------------------> set found 1
+10	10	---------------------> switch $mode...
+7	24	---------------------> if test $multi != yes...
+12	12	----------------------> test $multi != yes
+5	5	----------------------> continue
+8	19	--------------------> if test $found = 0...
+11	11	---------------------> test $found = 0
+8	8	-------------------> return $res
+12	12	------------------> test -d .git
+16	16	------------------> set -l dir $PWD
+66	8255	------------------> while test "$dir" != "/"...
+16	16	-------------------> test "$dir" != "/"
+19	19	-------------------> test -d $dir'/.git'
+79	1657	-------------------> set -l dir (dirname $dir ^/dev/null)
+1578	1578	--------------------> dirname $dir ^/dev/null
+22	22	-------------------> test "$dir" != "/"
+22	22	-------------------> test -d $dir'/.git'
+67	1363	-------------------> set -l dir (dirname $dir ^/dev/null)
+1296	1296	--------------------> dirname $dir ^/dev/null
+20	20	-------------------> test "$dir" != "/"
+20	20	-------------------> test -d $dir'/.git'
+82	1377	-------------------> set -l dir (dirname $dir ^/dev/null)
+1295	1295	--------------------> dirname $dir ^/dev/null
+21	21	-------------------> test "$dir" != "/"
+19	19	-------------------> test -d $dir'/.git'
+61	1237	-------------------> set -l dir (dirname $dir ^/dev/null)
+1176	1176	--------------------> dirname $dir ^/dev/null
+21	21	-------------------> test "$dir" != "/"
+19	19	-------------------> test -d $dir'/.git'
+60	1165	-------------------> set -l dir (dirname $dir ^/dev/null)
+1105	1105	--------------------> dirname $dir ^/dev/null
+19	19	-------------------> test "$dir" != "/"
+19	19	-------------------> test -d $dir'/.git'
+53	1136	-------------------> set -l dir (dirname $dir ^/dev/null)
+1083	1083	--------------------> dirname $dir ^/dev/null
+17	17	-------------------> test "$dir" != "/"
+8	8	------------------> return 1
+31	31	---------------> set -l res $status
+15	15	---------------> status --job-control $mode
+7	7	---------------> return $res
+6	2810	-------------> if eval vcs.$name.present...
+191	2804	--------------> eval vcs.$name.present
+21	21	---------------> set -l status_copy $status
+7	7	---------------> function __fish_restore_status...
+7	28	---------------> if not set -q argv[2]...
+10	10	----------------> not set -q argv[2]
+11	11	----------------> switch "$argv[1]"...
+13	13	---------------> set -l mode
+9	30	---------------> if status --is-interactive-job-control...
+9	9	----------------> status --is-interactive-job-control
+12	12	----------------> set mode interactive
+6	23	---------------> if status --is-interactive...
+8	8	----------------> status --is-interactive
+9	9	----------------> status --job-control full
+25	33	---------------> __fish_restore_status $status_copy
+8	8	----------------> return $argv[1]
+987	2419	---------------> echo "begin; $argv "\n" ;end <&3 3<&-" | source 3<&0
+25	1432	----------------> begin; vcs.hg.present 
+ ;end <&3 3<&-
+92	1407	-----------------> vcs.hg.present
+437	1310	------------------> type -q hg
+30	30	-------------------> set -q argv[1]
+48	48	-------------------> set -l options 'h/help' 'a/all' 'f/no-functions' 't/type' 'p/path' 'P/force-path' 'q/quiet'
+64	64	-------------------> argparse -n type --min-args=1 -x t,p,P $options -- $argv
+8	66	-------------------> if set -q _flag_help...
+58	58	--------------------> set -q _flag_help
+14	14	-------------------> set -l res 1
+14	14	-------------------> set -l mode normal
+14	14	-------------------> set -l multi no
+13	13	-------------------> set -l selection all
+8	29	-------------------> if set -q _flag_quiet...
+9	9	--------------------> set -q _flag_quiet
+12	12	--------------------> set mode quiet
+9	9	-------------------> set -q _flag_all
+9	9	-------------------> set -q _flag_no_functions
+21	555	-------------------> for i in $argv...
+12	12	--------------------> set -l found 0
+8	336	--------------------> if test $selection != files...
+13	13	---------------------> test $selection != files
+6	111	---------------------> if functions -q -- $i...
+105	105	----------------------> functions -q -- $i
+6	204	---------------------> if contains -- $i (builtin -n)...
+171	198	----------------------> contains -- $i (builtin -n)
+27	27	-----------------------> builtin -n
+15	15	--------------------> set -l paths
+9	131	--------------------> if test $multi != yes...
+13	13	---------------------> test $multi != yes
+45	109	---------------------> set paths (command -s -- $i)
+64	64	----------------------> command -s -- $i
+6	6	--------------------> for path in $paths...
+7	34	--------------------> if test $found = 0...
+13	13	---------------------> test $found = 0
+14	14	---------------------> and test $mode != quiet
+8	8	-------------------> return $res
+5	5	------------------> or return 1
+18	18	---------------> set -l res $status
+14	14	---------------> status --job-control $mode
+7	7	---------------> return $res
+6	16436	-------------> if eval vcs.$name.present...
+238	16430	--------------> eval vcs.$name.present
+20	20	---------------> set -l status_copy $status
+7	7	---------------> function __fish_restore_status...
+6	28	---------------> if not set -q argv[2]...
+11	11	----------------> not set -q argv[2]
+11	11	----------------> switch "$argv[1]"...
+12	12	---------------> set -l mode
+6	29	---------------> if status --is-interactive-job-control...
+10	10	----------------> status --is-interactive-job-control
+13	13	----------------> set mode interactive
+7	23	---------------> if status --is-interactive...
+8	8	----------------> status --is-interactive
+8	8	----------------> status --job-control full
+26	34	---------------> __fish_restore_status $status_copy
+8	8	----------------> return $argv[1]
+939	15972	---------------> echo "begin; $argv "\n" ;end <&3 3<&-" | source 3<&0
+27	15033	----------------> begin; vcs.svn.present 
+ ;end <&3 3<&-
+73	15006	-----------------> vcs.svn.present
+431	1324	------------------> type -q svn
+24	24	-------------------> set -q argv[1]
+41	41	-------------------> set -l options 'h/help' 'a/all' 'f/no-functions' 't/type' 'p/path' 'P/force-path' 'q/quiet'
+77	77	-------------------> argparse -n type --min-args=1 -x t,p,P $options -- $argv
+7	18	-------------------> if set -q _flag_help...
+11	11	--------------------> set -q _flag_help
+13	13	-------------------> set -l res 1
+13	13	-------------------> set -l mode normal
+13	13	-------------------> set -l multi no
+13	13	-------------------> set -l selection all
+8	29	-------------------> if set -q _flag_quiet...
+9	9	--------------------> set -q _flag_quiet
+12	12	--------------------> set mode quiet
+9	9	-------------------> set -q _flag_all
+9	9	-------------------> set -q _flag_no_functions
+18	626	-------------------> for i in $argv...
+13	13	--------------------> set -l found 0
+8	335	--------------------> if test $selection != files...
+14	14	---------------------> test $selection != files
+6	111	---------------------> if functions -q -- $i...
+105	105	----------------------> functions -q -- $i
+7	202	---------------------> if contains -- $i (builtin -n)...
+164	195	----------------------> contains -- $i (builtin -n)
+31	31	-----------------------> builtin -n
+16	16	--------------------> set -l paths
+8	146	--------------------> if test $multi != yes...
+14	14	---------------------> test $multi != yes
+52	124	---------------------> set paths (command -s -- $i)
+72	72	----------------------> command -s -- $i
+19	78	--------------------> for path in $paths...
+12	12	---------------------> set res 0
+13	13	---------------------> set found 1
+9	9	---------------------> switch $mode...
+8	25	---------------------> if test $multi != yes...
+12	12	----------------------> test $multi != yes
+5	5	----------------------> continue
+8	20	--------------------> if test $found = 0...
+12	12	---------------------> test $found = 0
+8	8	-------------------> return $res
+13609	13609	------------------> command svn info >/dev/null ^&1
+41	41	---------------> set -l res $status
+17	17	---------------> status --job-control $mode
+9	9	---------------> return $res
+5	5	------------> return 1
+189	2097	---------> autoload $path/functions/none
+357	381	----------> source /Users/alberthan/.local/share/omf/lib/autoload.fish
+7	7	-----------> function autoload...
+10	10	-----------> function __autoload_insert...
+7	7	-----------> function __autoload_erase...
+26	1527	----------> switch "$argv[1]"...
+38	137	-----------> test (count $argv) -ge 1
+99	99	------------> count $argv
+117	1364	-----------> and __autoload_insert $argv
+12	12	------------> set -l function_path
+19	19	------------> set -l complete_path
+33	978	------------> for path in $argv...
+23	23	-------------> not test -d "$path"
+13	13	-------------> set -l IFS '/'
+769	769	-------------> echo $path | read -la components
+13	140	-------------> if test "x$components[-1]" = xcompletions...
+34	34	--------------> test "x$components[-1]" = xcompletions
+68	68	--------------> contains -- $path $fish_function_path
+25	25	--------------> or set function_path $function_path $path
+16	16	------------> test -n "$function_path"
+90	90	------------> and set fish_function_path $fish_function_path[1] $function_path $fish_function_path[2..-1]
+128	128	------------> test -n "$complete_path"
+4	4	------------> return 0
+4	4	---------> return 1
+103	103	------> set -g omf_init_path $omf_init_path $path
+89	89	------> emit perf:timer:finish $init
+9	9	-----> return 0
+11	11	----> emit perf:timer:finish "Oh My Fish init installed packages"
+172	172	----> functions -q fish_user_key_bindings
+6	6	----> function fish_user_key_bindings...
+11	11	----> emit perf:timer:start "Oh My Fish init user config path"
+321	1303	----> require --no-bundle --path $OMF_CONFIG
+431	443	-----> source /Users/alberthan/.local/share/omf/lib/require.fish
+12	12	------> function require...
+73	73	-----> set packages $argv
+6	22	-----> if test -z "$packages"...
+16	16	------> test -z "$packages"
+8	185	-----> if set index (contains -i -- --no-bundle $packages)...
+42	147	------> set index (contains -i -- --no-bundle $packages)
+105	105	-------> contains -i -- --no-bundle $packages
+19	19	------> set -e packages[$index]
+11	11	------> set ignore_bundle
+7	95	-----> if set index (contains -i -- --path $packages)...
+38	56	------> set index (contains -i -- --path $packages)
+18	18	-------> contains -i -- --path $packages
+17	17	------> set -e packages[$index]
+15	15	------> set package_path $packages
+53	53	-----> set function_path $package_path/functions*
+40	40	-----> set complete_path $package_path/completions*
+39	39	-----> set init_path $package_path/init.fish*
+11	11	-----> test -n "$function_path"
+9	9	-----> test -n "$complete_path"
+8	8	-----> for init in $init_path...
+4	4	-----> return 0
+11	11	----> emit perf:timer:finish "Oh My Fish init user config path"
+10	10	----> emit perf:timer:finish "Oh My Fish initialisation"
+5	14	-> if not set -q __fish_init_2_3_0...
+9	9	--> not set -q __fish_init_2_3_0
+5	93	-> if status --is-login...
+88	88	--> status --is-login
+43	43	> builtin source /usr/local/Cellar/fish/2.7.1/etc/fish/config.fish
+74	297750	> builtin source /Users/alberthan/.config/fish/config.fish
+342	297475	-> eval (python -m virtualfish auto_activation)
+212	231	--> source /usr/local/Cellar/fish/2.7.1/share/fish/functions/eval.fish
+19	19	---> function eval -S -d "Evaluate parameters as a command"...
+251129	251129	--> python -m virtualfish auto_activation
+23	23	--> set -l status_copy $status
+8	8	--> function __fish_restore_status...
+6	28	--> if not set -q argv[2]...
+10	10	---> not set -q argv[2]
+12	12	---> switch "$argv[1]"...
+11	11	--> set -l mode
+5	24	--> if status --is-interactive-job-control...
+8	8	---> status --is-interactive-job-control
+11	11	---> set mode interactive
+6	31	--> if status --is-interactive...
+6	6	---> status --is-interactive
+19	19	---> status --job-control full
+60	113	--> __fish_restore_status $status_copy
+53	53	---> return $argv[1]
+1215	45474	--> echo "begin; $argv "\n" ;end <&3 3<&-" | source 3<&0
+51	44259	---> begin; set -g VIRTUALFISH_VERSION 1.0.6;set -g VIRTUALFISH_PYTHON_EXEC /Users/alberthan/.virtualenvs/magentaVAE/bin/python;source /Users/alberthan/anaconda/lib/python3.6/site-packages/virtualfish/virtual.fish;source /Users/alberthan/anaconda/lib/python3.6/site-packages/virtualfish/auto_activation.fish;emit virtualfish_did_setup_plugins 
+ ;end <&3 3<&-
+50	50	----> set -g VIRTUALFISH_VERSION 1.0.6
+26	26	----> set -g VIRTUALFISH_PYTHON_EXEC /Users/alberthan/.virtualenvs/magentaVAE/bin/python
+1928	2373	----> source /Users/alberthan/anaconda/lib/python3.6/site-packages/virtualfish/virtual.fish
+9	150	-----> if not set -q VIRTUALFISH_HOME...
+103	103	------> not set -q VIRTUALFISH_HOME
+38	38	------> set -g VIRTUALFISH_HOME $HOME/.virtualenvs
+21	21	-----> function vf --description "VirtualFish: fish plugin to manage virtualenvs"...
+22	22	-----> function __vf_activate --description "Activate a virtualenv"...
+13	13	-----> function __vf_deactivate --description "Deactivate this virtualenv"...
+12	12	-----> function __vf_new --description "Create a new virtualenv"...
+9	9	-----> function __vf_rm --description "Delete a virtualenv"...
+7	7	-----> function __vf_ls --description "List all of the available virtualenvs"...
+7	7	-----> function __vf_cd --description "Change directory to this virtualenv"...
+12	12	-----> function __vf_cdpackages --description "Change to the site-packages directory of this virtualenv"...
+12	12	-----> function __vf_tmp --description "Create a virtualenv that will be removed when deactivated"...
+15	15	-----> function __vfsupport_remove_env_on_deactivate_or_exit --on-event virtualenv_did_deactivate --on-process %self...
+15	15	-----> function __vf_addpath --description "Adds a path to sys.path in this virtualenv"...
+9	9	-----> function __vf_all --description "Run a command in all virtualenvs sequentially"...
+8	53	-----> if not set -q VIRTUALFISH_ACTIVATION_FILE...
+21	21	------> not set -q VIRTUALFISH_ACTIVATION_FILE
+24	24	------> set -g VIRTUALFISH_ACTIVATION_FILE .venv
+7	50	-----> if not set -q VIRTUALFISH_GLOBAL_SITE_PACKAGES_FILE...
+18	18	------> not set -q VIRTUALFISH_GLOBAL_SITE_PACKAGES_FILE
+25	25	------> set -g VIRTUALFISH_GLOBAL_SITE_PACKAGES_FILE "no-global-site-packages.txt"
+9	9	-----> function __vf_connect --description "Connect this virtualenv to the current directory"...
+8	8	-----> function __vf_help --description "Print VirtualFish usage information"...
+8	8	-----> function __vf_globalpackages --description "Toggle global site packages"...
+13	13	-----> function __vfsupport_setup_autocomplete --on-event virtualfish_did_setup_plugins...
+270	5044	----> source /Users/alberthan/anaconda/lib/python3.6/site-packages/virtualfish/auto_activation.fish
+12	12	-----> function __vfsupport_auto_activate --on-variable PWD...
+10	10	-----> function __vfsupport_deactivate_remove_flag --on-event virtualenv_did_deactivate...
+137	4752	-----> __vfsupport_auto_activate
+7	27	------> if status --is-command-substitution...
+20	20	-------> status --is-command-substitution
+31	31	------> set -l activation_root $PWD
+23	23	------> set -l new_virtualenv_name ""
+8	2428	------> while test $activation_root != ""...
+24	24	-------> test $activation_root != ""
+13	2396	-------> if test -f "$activation_root/$VIRTUALFISH_ACTIVATION_FILE"...
+37	37	--------> test -f "$activation_root/$VIRTUALFISH_ACTIVATION_FILE"
+87	2332	--------> set new_virtualenv_name (cat "$activation_root/$VIRTUALFISH_ACTIVATION_FILE")
+2245	2245	---------> cat "$activation_root/$VIRTUALFISH_ACTIVATION_FILE"
+14	14	--------> break
+10	2106	------> if test $new_virtualenv_name != ""...
+26	26	-------> test $new_virtualenv_name != ""
+5	2070	-------> if begin...
+8	2065	--------> begin...
+20	20	---------> not set -q VIRTUAL_ENV
+104	2037	---------> or test $new_virtualenv_name != (basename $VIRTUAL_ENV)
+1933	1933	----------> basename $VIRTUAL_ENV
+58	36715	----> emit virtualfish_did_setup_plugins
+131	36657	-----> __vfsupport_setup_autocomplete
+10	10	------> function __vfcompletion_needs_command...
+6	6	------> function __vfcompletion_using_command...
+335	36454	------> for sc in (functions -a | sed -n '/__vf_/{s///g;p;}')...
+3278	3278	-------> functions -a | sed -n '/__vf_/{s///g;p;}'
+125	2758	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2633	2633	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+131	131	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+150	2618	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2468	2468	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+40	40	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+153	2679	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2526	2526	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+37	37	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+110	2406	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2296	2296	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+32	32	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+117	2349	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2232	2232	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+35	35	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+111	2372	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2261	2261	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+40	40	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+110	2426	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2316	2316	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+38	38	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+113	2363	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2250	2250	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+34	34	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+169	2751	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2582	2582	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+36	36	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+104	2442	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2338	2338	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+39	39	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+133	2462	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2329	2329	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+34	34	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+101	2293	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2192	2192	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+34	34	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+118	2358	-------> set -l helptext (functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|")
+2240	2240	--------> functions "__vf_$sc" | head -n 1 | sed -E "s|.*'(.*)'.*|\1|"
+34	34	-------> complete -x -c vf -n '__vfcompletion_needs_command' -a $sc -d $helptext
+33	33	------> complete -x -c vf -n '__vfcompletion_using_command activate' -a "(vf ls)"
+23	23	------> complete -x -c vf -n '__vfcompletion_using_command rm' -a "(vf ls)"
+30	30	--> set -l res $status
+24	24	--> status --job-control $mode
+7	7	--> return $res
+133	133	-> set -gx PATH ~/.local/bin $PATH
+68	68	-> set -gx PATH /usr/local/"protoc-3.6.0"/bin $PATH
+41	56	> __vfsupport_remove_env_on_deactivate_or_exit PROCESS_EXIT 79866 127
+6	15	-> if set -q VF_TEMPORARY_ENV...
+9	9	--> set -q VF_TEMPORARY_ENV

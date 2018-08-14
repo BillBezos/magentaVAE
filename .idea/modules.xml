@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/anaconda/lib/python3.6/logging/.idea/logging.iml" filepath="$USER_HOME$/anaconda/lib/python3.6/logging/.idea/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/magentaVAE.iml" filepath="$PROJECT_DIR$/.idea/magentaVAE.iml" />
+    </modules>
+  </component>
+</project>
