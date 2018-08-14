@@ -1,0 +1,1253 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+### TeX template
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+# *.ps
+# *.eps
+# *.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Build tool directories for auxiliary files
+# latexrun
+latex.out/
+
+## Auxiliary and intermediate files from other packages:
+# algorithms
+*.alg
+*.loa
+
+# achemso
+acs-*.bib
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# changes
+*.soc
+
+# cprotect
+*.cpt
+
+# elsarticle (documentclass of Elsevier journals)
+*.spl
+
+# endnotes
+*.ent
+
+# fixme
+*.lox
+
+# feynmf/feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+
+#(r)(e)ledmac/(r)(e)ledpar
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+
+# gnuplottex
+*-gnuplottex-*
+
+# gregoriotex
+*.gaux
+*.gtex
+
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
+# hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+# TODO Comment the next line if you want to keep your tikz graphics files
+*.tikz
+*-tikzDictionary
+
+# listings
+*.lol
+
+# makeidx
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# minted
+_minted*
+*.pyg
+
+# morewrites
+*.mw
+
+# nomencl
+*.nlg
+*.nlo
+*.nls
+
+# pax
+*.pax
+
+# pdfpcnotes
+*.pdfpc
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# scrwfile
+*.wrt
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# pdfcomment
+*.upa
+*.upb
+
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+# thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# todonotes
+*.tdo
+
+# easy-todo
+*.lod
+
+# xmpincl
+*.xmpi
+
+# xindy
+*.xdy
+
+# xypic precompiled matrices
+*.xyc
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+## Editors:
+# WinEdt
+*.bak
+*.sav
+
+# Texpad
+.texpadtmp
+
+# LyX
+*.lyx~
+
+# Kile
+*.backup
+
+# KBibTeX
+*~[0-9]*
+
+# auto folder when using emacs and auctex
+./auto/*
+*.el
+
+# expex forward references with \gathertags
+*-tags.tex
+
+# standalone packages
+*.sta
+### MicrosoftOffice template
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+### GitBook template
+# Node rules:
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+## Dependency directory
+## Commenting this out is preferred by some people, see
+## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Book build output
+_book
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+### CUDA template
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+### SublimeText template
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+# Project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using Sublime Text
+# *.sublime-project
+
+# SFTP configuration file
+sftp-config.json
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+### MetaProgrammingSystem template
+workspace.xml
+junitvmwatcher*.properties
+build.properties
+
+# generated java classes and java source files
+#   manually add any custom artifacts that can't be generated from the models
+#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
+classes_gen
+source_gen
+source_gen.caches
+
+# generated test code and test results
+test_gen
+test_gen.caches
+TEST-*.xml
+junit*.properties
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+### Backup template
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+### macOS template
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+.idea/fileTemplates/code/
+.idea/fileTemplates/includes/
+.idea/fileTemplates/internal/
+.idea/fileTemplates/j2ee/
+.idea/shelf/
+.idea/workspace.xml
+home/__pycache__/
+home/_build/
+home/_static/
+home/_templates/
+home/mods/__pycache__/__init__.cpython-36.pyc
+home/mods/__pycache__/convert_dir_to_note_sequences.cpython-36.pyc
+home/mods/__pycache__/foo.cpython-36.pyc
+home/mods/__pycache__/helpers.cpython-36.pyc
+home/mods/__pycache__/test.cpython-36.pyc
+home/mods/gen_inspect/_00_gi.sh
+home/mods/gen_inspect/_00b_gi.py
+home/mods/gen_inspect/_00c_gi.py
+home/mods/gen_inspect/_00d_gi.py
+home/mods/gen_inspect/_00ev1_gi.py
+home/mods/gen_inspect/_00ev2_gi.py
+home/mods/gen_inspect/_00fv1_gi.py
+home/mods/gen_inspect/_00gv1_gi.py
+home/mods/gen_inspect/_00gv2_gi.py
+home/mods/gen_inspect/_00gv3_gi.py
+home/mods/gen_inspect/_01_performance_rnn_generate.py
+home/mods/gen_inspect/_02_performance_sequence_generator.py
+home/mods/gen_inspect/_02a_performance_lib.py
+home/mods/gen_inspect/_02b_sequence_generator.py
+home/mods/gen_inspect/_03_performance_model.py
+home/mods/gen_inspect/_04_events_rnn_model.py
+home/mods/gen_inspect/_04b_encoder_decoder.py
+home/mods/gen_inspect/_04c_performance_encoder_decoder.py
+home/mods/gen_inspect/_04d_beam_search.py
+home/mods/gen_inspect/__pycache__/
+home/mods/gen_inspect/_guide.txt
+home/mods/gen_inspect/_helpers.py
+home/mods/gen_inspect/_stdcfn.pk
+home/mods/gen_inspect/_stndfn.pk
+home/mods/gen_inspect/_stphfn.pk
+home/mods/gen_inspect/_tmp.py
+home/mods/gen_inspect/_vtmp.py
+home/mods/gen_inspect/bp__ts.pk
+home/mods/gen_inspect/bs1.pk
+home/mods/gen_inspect/bs2.pk
+home/mods/gen_inspect/bs2a.pk
+home/mods/gen_inspect/bs2b.pk
+home/mods/gen_inspect/bs3.pk
+home/mods/gen_inspect/bs4.pk
+home/mods/gen_inspect/bs__gb.pk
+home/mods/gen_inspect/bs__gb1.pk
+home/mods/gen_inspect/bs__pb.pk
+home/mods/gen_inspect/cesed_gib.pk
+home/mods/gen_inspect/epfs.pk
+home/mods/gen_inspect/esed__ees.pk
+home/mods/gen_inspect/esed__ell.pk
+home/mods/gen_inspect/esrm__ge.pk
+home/mods/gen_inspect/esrm__ge1.pk
+home/mods/gen_inspect/esrm__ge2.pk
+home/mods/gen_inspect/esrm__gs.pk
+home/mods/gen_inspect/esrm__gs1.pk
+home/mods/gen_inspect/esrm__gs2.pk
+home/mods/gen_inspect/esrm__gsfb1.pk
+home/mods/gen_inspect/esrm__gsfb1_softmax.xlsx
+home/mods/gen_inspect/esrm__gsfb2.pk
+home/mods/gen_inspect/esrm__gsfb2a.pk
+home/mods/gen_inspect/extend_control_events_callback.pk
+home/mods/gen_inspect/f.txt
+home/mods/gen_inspect/generated/2018-05-08_115419_1.mid
+home/mods/gen_inspect/generated/2018-05-08_165832_1.mid
+home/mods/gen_inspect/generated/2018-06-04_111014_1.mid
+home/mods/gen_inspect/generated/2018-06-04_114457_1.mid
+home/mods/gen_inspect/generated/2018-06-05_172701_1.mid
+home/mods/gen_inspect/generated/2018-06-05_185014_1.mid
+home/mods/gen_inspect/generated/2018-06-05_185051_1.mid
+home/mods/gen_inspect/generated/2018-06-06_183246_1.mid
+home/mods/gen_inspect/generated/2018-06-07_164708_1.mid
+home/mods/gen_inspect/generated/2018-06-07_184307_1.mid
+home/mods/gen_inspect/generated/2018-06-07_191931_1.mid
+home/mods/gen_inspect/generated/2018-06-07_192437_1.mid
+home/mods/gen_inspect/generated/2018-06-07_192657_1.mid
+home/mods/gen_inspect/generated/2018-06-07_192823_1.mid
+home/mods/gen_inspect/generated/2018-06-09_185223_1.mid
+home/mods/gen_inspect/generated/2018-06-09_204748_1.mid
+home/mods/gen_inspect/generated/2018-06-09_210636_1.mid
+home/mods/gen_inspect/generated/2018-06-09_214522_1.mid
+home/mods/gen_inspect/generated/2018-06-09_220115_1.mid
+home/mods/gen_inspect/generated/2018-06-09_220315_1.mid
+home/mods/gen_inspect/generated/2018-06-09_221129_1.mid
+home/mods/gen_inspect/generated/2018-06-09_221612_1.mid
+home/mods/gen_inspect/generated/2018-06-09_222751_1.mid
+home/mods/gen_inspect/generated/2018-06-10_171117_1.mid
+home/mods/gen_inspect/generated/2018-06-10_171548_1.mid
+home/mods/gen_inspect/generated/2018-06-10_172501_1.mid
+home/mods/gen_inspect/generated/2018-06-10_185758_1.mid
+home/mods/gen_inspect/generated/2018-06-10_192459_1.mid
+home/mods/gen_inspect/generated/2018-06-10_192523_1.mid
+home/mods/gen_inspect/generated/2018-06-10_192623_1.mid
+home/mods/gen_inspect/generator.pk
+home/mods/gen_inspect/generator_options.pk
+home/mods/gen_inspect/gi1.sublime-project
+home/mods/gen_inspect/gi1.sublime-workspace
+home/mods/gen_inspect/ipython/.editorconfig
+home/mods/gen_inspect/ipython/.gitattributes
+home/mods/gen_inspect/ipython/.gitignore
+home/mods/gen_inspect/ipython/.mailmap
+home/mods/gen_inspect/ipython/.travis.yml
+home/mods/gen_inspect/ipython/CONTRIBUTING.md
+home/mods/gen_inspect/ipython/COPYING.rst
+home/mods/gen_inspect/ipython/IPython/__init__.py
+home/mods/gen_inspect/ipython/IPython/__main__.py
+home/mods/gen_inspect/ipython/IPython/config.py
+home/mods/gen_inspect/ipython/IPython/consoleapp.py
+home/mods/gen_inspect/ipython/IPython/core/__init__.py
+home/mods/gen_inspect/ipython/IPython/core/alias.py
+home/mods/gen_inspect/ipython/IPython/core/application.py
+home/mods/gen_inspect/ipython/IPython/core/autocall.py
+home/mods/gen_inspect/ipython/IPython/core/builtin_trap.py
+home/mods/gen_inspect/ipython/IPython/core/compilerop.py
+home/mods/gen_inspect/ipython/IPython/core/completer.py
+home/mods/gen_inspect/ipython/IPython/core/completerlib.py
+home/mods/gen_inspect/ipython/IPython/core/crashhandler.py
+home/mods/gen_inspect/ipython/IPython/core/debugger.py
+home/mods/gen_inspect/ipython/IPython/core/display.py
+home/mods/gen_inspect/ipython/IPython/core/display_trap.py
+home/mods/gen_inspect/ipython/IPython/core/displayhook.py
+home/mods/gen_inspect/ipython/IPython/core/displaypub.py
+home/mods/gen_inspect/ipython/IPython/core/error.py
+home/mods/gen_inspect/ipython/IPython/core/events.py
+home/mods/gen_inspect/ipython/IPython/core/excolors.py
+home/mods/gen_inspect/ipython/IPython/core/extensions.py
+home/mods/gen_inspect/ipython/IPython/core/formatters.py
+home/mods/gen_inspect/ipython/IPython/core/getipython.py
+home/mods/gen_inspect/ipython/IPython/core/history.py
+home/mods/gen_inspect/ipython/IPython/core/historyapp.py
+home/mods/gen_inspect/ipython/IPython/core/hooks.py
+home/mods/gen_inspect/ipython/IPython/core/inputsplitter.py
+home/mods/gen_inspect/ipython/IPython/core/inputtransformer.py
+home/mods/gen_inspect/ipython/IPython/core/interactiveshell.py
+home/mods/gen_inspect/ipython/IPython/core/latex_symbols.py
+home/mods/gen_inspect/ipython/IPython/core/logger.py
+home/mods/gen_inspect/ipyth
+on/IPython/core/macro.py
+home/mods/gen_inspect/ipython/IPython/core/magic.py
+home/mods/gen_inspect/ipython/IPython/core/magic_arguments.py
+home/mods/gen_inspect/ipython/IPython/core/magics/__init__.py
+home/mods/gen_inspect/ipython/IPython/core/magics/auto.py
+home/mods/gen_inspect/ipython/IPython/core/magics/basic.py
+home/mods/gen_inspect/ipython/IPython/core/magics/code.py
+home/mods/gen_inspect/ipython/IPython/core/magics/config.py
+home/mods/gen_inspect/ipython/IPython/core/magics/display.py
+home/mods/gen_inspect/ipython/IPython/core/magics/execution.py
+home/mods/gen_inspect/ipython/IPython/core/magics/extension.py
+home/mods/gen_inspect/ipython/IPython/core/magics/history.py
+home/mods/gen_inspect/ipython/IPython/core/magics/logging.py
+home/mods/gen_inspect/ipython/IPython/core/magics/namespace.py
+home/mods/gen_inspect/ipython/IPython/core/magics/osm.py
+home/mods/gen_inspect/ipython/IPython/core/magics/pylab.py
+home/mods/gen_inspect/ipython/IPython/core/magics/script.py
+home/mods/gen_inspect/ipython/IPython/core/oinspect.py
+home/mods/gen_inspect/ipython/IPython/core/page.py
+home/mods/gen_inspect/ipython/IPython/core/payload.py
+home/mods/gen_inspect/ipython/IPython/core/payloadpage.py
+home/mods/gen_inspect/ipython/IPython/core/prefilter.py
+home/mods/gen_inspect/ipython/IPython/core/profile/
+home/mods/gen_inspect/ipython/IPython/core/profileapp.py
+home/mods/gen_inspect/ipython/IPython/core/profiledir.py
+home/mods/gen_inspect/ipython/IPython/core/prompts.py
+home/mods/gen_inspect/ipython/IPython/core/pylabtools.py
+home/mods/gen_inspect/ipython/IPython/core/release.py
+home/mods/gen_inspect/ipython/IPython/core/shellapp.py
+home/mods/gen_inspect/ipython/IPython/core/splitinput.py
+home/mods/gen_inspect/ipython/IPython/core/tests/
+home/mods/gen_inspect/ipython/IPython/core/ultratb.py
+home/mods/gen_inspect/ipython/IPython/core/usage.py
+home/mods/gen_inspect/ipython/IPython/display.py
+home/mods/gen_inspect/ipython/IPython/extensions/__init__.py
+home/mods/gen_inspect/ipython/IPython/extensions/autoreload.py
+home/mods/gen_inspect/ipython/IPython/extensions/cythonmagic.py
+home/mods/gen_inspect/ipython/IPython/extensions/rmagic.py
+home/mods/gen_inspect/ipython/IPython/extensions/storemagic.py
+home/mods/gen_inspect/ipython/IPython/extensions/sympyprinting.py
+home/mods/gen_inspect/ipython/IPython/extensions/tests/
+home/mods/gen_inspect/ipython/IPython/external/
+home/mods/gen_inspect/ipython/IPython/frontend.py
+home/mods/gen_inspect/ipython/IPython/html.py
+home/mods/gen_inspect/ipython/IPython/kernel/
+home/mods/gen_inspect/ipython/IPython/lib/__init__.py
+home/mods/gen_inspect/ipython/IPython/lib/backgroundjobs.py
+home/mods/gen_inspect/ipython/IPython/lib/clipboard.py
+home/mods/gen_inspect/ipython/IPython/lib/deepreload.py
+home/mods/gen_inspect/ipython/IPython/lib/demo.py
+home/mods/gen_inspect/ipython/IPython/lib/display.py
+home/mods/gen_inspect/ipython/IPython/lib/editorhooks.py
+home/mods/gen_inspect/ipython/IPython/lib/guisupport.py
+home/mods/gen_inspect/ipython/IPython/lib/inputhook.py
+home/mods/gen_inspect/ipython/IPython/lib/inputhookglut.py
+home/mods/gen_inspect/ipython/IPython/lib/inputhookgtk.py
+home/mods/gen_inspect/ipython/IPython/lib/inputhookgtk3.py
+home/mods/gen_inspect/ipython/IPython/lib/inputhookpyglet.py
+home/mods/gen_inspect/ipython/IPython/lib/inputhookqt4.py
+home/mods/gen_inspect/ipython/IPython/lib/inputhookwx.py
+home/mods/gen_inspect/ipython/IPython/lib/kernel.py
+home/mods/gen_inspect/ipython/IPython/lib/latextools.py
+home/mods/gen_inspect/ipython/IPython/lib/lexers.py
+home/mods/gen_inspect/ipython/IPython/lib/pretty.py
+home/mods/gen_inspect/ipython/IPython/lib/security.py
+home/mods/gen_inspect/ipython/IPython/lib/tests/
+home/mods/gen_inspect/ipython/IPython/nbconvert.py
+home/mods/gen_inspect/ipython/IPython/nbformat.py
+home/mods/gen_inspect/ipython/IPython/parallel.py
+home/mods/gen_inspect/ipython/IPython/paths.py
+home/mods/gen_inspect/ipython/IPython/qt.py
+home/mods/gen_inspect/ipython/IPython/sphinxext/
+home/mods/gen_inspect/ipython/IPython/terminal/__init__.py
+home/mods/gen_inspect/ipython/IPython/terminal/console.py
+home/mods/gen_inspect/ipython/IPython/terminal/debugger.py
+home/mods/gen_inspect/ipython/IPython/terminal/embed.py
+home/mods/gen_inspect/ipython/IPython/terminal/interactiveshell.py
+home/mods/gen_inspect/ipython/IPython/terminal/ipapp.py
+home/mods/gen_inspect/ipython/IPython/terminal/magics.py
+home/mods/gen_inspect/ipython/IPython/terminal/prompts.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/__init__.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/glut.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/gtk.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/gtk3.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/osx.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/pyglet.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/qt.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/tk.py
+home/mods/gen_inspect/ipython/IPython/terminal/pt_inputhooks/wx.py
+home/mods/gen_inspect/ipython/IPython/terminal/ptshell.py
+home/mods/gen_inspect/ipython/IPython/terminal/ptutils.py
+home/mods/gen_inspect/ipython/IPython/terminal/shortcuts.py
+home/mods/gen_inspect/ipython/IPython/terminal/tests/
+home/mods/gen_inspect/ipython/IPython/testing/__init__.py
+home/mods/gen_inspect/ipython/IPython/testing/__main__.py
+home/mods/gen_inspect/ipython/IPython/testing/decorators.py
+home/mods/gen_inspect/ipython/IPython/testing/globalipapp.py
+home/mods/gen_inspect/ipython/IPython/testing/iptest.py
+home/mods/gen_inspect/ipython/IPython/testing/iptestcontroller.py
+home/mods/gen_inspect/ipython/IPython/testing/ipunittest.py
+home/mods/gen_inspect/ipython/IPython/testing/plugin/
+home/mods/gen_inspect/ipython/IPython/testing/skipdoctest.py
+home/mods/gen_inspect/ipython/IPython/testing/tests/
+home/mods/gen_inspect/ipython/IPython/testing/tools.py
+home/mods/gen_inspect/ipython/IPython/utils/PyColorize.py
+home/mods/gen_inspect/ipython/IPython/utils/__init__.py
+home/mods/gen_inspect/ipython/IPython/utils/_process_cli.py
+home/mods/gen_inspect/ipython/IPython/utils/_process_common.py
+home/mods/gen_inspect/ipython/IPython/utils/_process_posix.py
+home/mods/gen_inspect/ipython/IPython/utils/_process_win32.py
+home/mods/gen_inspect/ipython/IPython/utils/_process_win32_controller.py
+home/mods/gen_inspect/ipython/IPython/utils/_sysinfo.py
+home/mods/gen_inspect/ipython/IPython/utils/capture.py
+home/mods/gen_inspect/ipython/IPython/utils/colorable.py
+home/mods/gen_inspect/ipython/IPython/utils/coloransi.py
+home/mods/gen_inspect/ipython/IPython/utils/contexts.py
+home/mods/gen_inspect/ipyt
+hon/IPython/utils/daemonize.py
+home/mods/gen_inspect/ipython/IPython/utils/data.py
+home/mods/gen_inspect/ipython/IPython/utils/decorators.py
+home/mods/gen_inspect/ipython/IPython/utils/dir2.py
+home/mods/gen_inspect/ipython/IPython/utils/encoding.py
+home/mods/gen_inspect/ipython/IPython/utils/eventful.py
+home/mods/gen_inspect/ipython/IPython/utils/frame.py
+home/mods/gen_inspect/ipython/IPython/utils/generics.py
+home/mods/gen_inspect/ipython/IPython/utils/importstring.py
+home/mods/gen_inspect/ipython/IPython/utils/io.py
+home/mods/gen_inspect/ipython/IPython/utils/ipstruct.py
+home/mods/gen_inspect/ipython/IPython/utils/jsonutil.py
+home/mods/gen_inspect/ipython/IPython/utils/localinterfaces.py
+home/mods/gen_inspect/ipython/IPython/utils/log.py
+home/mods/gen_inspect/ipython/IPython/utils/module_paths.py
+home/mods/gen_inspect/ipython/IPython/utils/openpy.py
+home/mods/gen_inspect/ipython/IPython/utils/path.py
+home/mods/gen_inspect/ipython/IPython/utils/pickleutil.py
+home/mods/gen_inspect/ipython/IPython/utils/process.py
+home/mods/gen_inspect/ipython/IPython/utils/py3compat.py
+home/mods/gen_inspect/ipython/IPython/utils/sentinel.py
+home/mods/gen_inspect/ipython/IPython/utils/shimmodule.py
+home/mods/gen_inspect/ipython/IPython/utils/signatures.py
+home/mods/gen_inspect/ipython/IPython/utils/strdispatch.py
+home/mods/gen_inspect/ipython/IPython/utils/sysinfo.py
+home/mods/gen_inspect/ipython/IPython/utils/syspathcontext.py
+home/mods/gen_inspect/ipython/IPython/utils/tempdir.py
+home/mods/gen_inspect/ipython/IPython/utils/terminal.py
+home/mods/gen_inspect/ipython/IPython/utils/tests/
+home/mods/gen_inspect/ipython/IPython/utils/text.py
+home/mods/gen_inspect/ipython/IPython/utils/timing.py
+home/mods/gen_inspect/ipython/IPython/utils/tokenize2.py
+home/mods/gen_inspect/ipython/IPython/utils/tokenutil.py
+home/mods/gen_inspect/ipython/IPython/utils/traitlets.py
+home/mods/gen_inspect/ipython/IPython/utils/tz.py
+home/mods/gen_inspect/ipython/IPython/utils/ulinecache.py
+home/mods/gen_inspect/ipython/IPython/utils/version.py
+home/mods/gen_inspect/ipython/IPython/utils/wildcard.py
+home/mods/gen_inspect/ipython/LICENSE
+home/mods/gen_inspect/ipython/MANIFEST.in
+home/mods/gen_inspect/ipython/README.rst
+home/mods/gen_inspect/ipython/appveyor.yml
+home/mods/gen_inspect/ipython/codecov.yml
+home/mods/gen_inspect/ipython/docs/Makefile
+home/mods/gen_inspect/ipython/docs/README.rst
+home/mods/gen_inspect/ipython/docs/autogen_api.py
+home/mods/gen_inspect/ipython/docs/autogen_config.py
+home/mods/gen_inspect/ipython/docs/autogen_magics.py
+home/mods/gen_inspect/ipython/docs/autogen_shortcuts.py
+home/mods/gen_inspect/ipython/docs/make.cmd
+home/mods/gen_inspect/ipython/docs/man/
+home/mods/gen_inspect/ipython/docs/requirements.txt
+home/mods/gen_inspect/ipython/docs/source/_images/
+home/mods/gen_inspect/ipython/docs/source/_static/
+home/mods/gen_inspect/ipython/docs/source/_templates/
+home/mods/gen_inspect/ipython/docs/source/about/
+home/mods/gen_inspect/ipython/docs/source/api/
+home/mods/gen_inspect/ipython/docs/source/conf.py
+home/mods/gen_inspect/ipython/docs/source/config/callbacks.rst
+home/mods/gen_inspect/ipython/docs/source/config/custommagics.rst
+home/mods/gen_inspect/ipython/docs/source/config/details.rst
+home/mods/gen_inspect/ipython/docs/source/config/eventloops.rst
+home/mods/gen_inspect/ipython/docs/source/config/extensions/
+home/mods/gen_inspect/ipython/docs/source/config/index.rst
+home/mods/gen_inspect/ipython/docs/source/config/inputtransforms.rst
+home/mods/gen_inspect/ipython/docs/source/config/integrating.rst
+home/mods/gen_inspect/ipython/docs/source/config/intro.rst
+home/mods/gen_inspect/ipython/docs/source/config/shortcuts/
+home/mods/gen_inspect/ipython/docs/source/coredev/
+home/mods/gen_inspect/ipython/docs/source/development/
+home/mods/gen_inspect/ipython/docs/source/index.rst
+home/mods/gen_inspect/ipython/docs/source/install/
+home/mods/gen_inspect/ipython/docs/source/interactive/
+home/mods/gen_inspect/ipython/docs/source/links.txt
+home/mods/gen_inspect/ipython/docs/source/overview.rst
+home/mods/gen_inspect/ipython/docs/source/parallel/
+home/mods/gen_inspect/ipython/docs/source/sphinxext.rst
+home/mods/gen_inspect/ipython/docs/source/whatsnew/
+home/mods/gen_inspect/ipython/docs/sphinxext/
+home/mods/gen_inspect/ipython/examples/
+home/mods/gen_inspect/ipython/scripts/
+home/mods/gen_inspect/ipython/setup.py
+home/mods/gen_inspect/ipython/setupbase.py
+home/mods/gen_inspect/ipython/setupegg.py
+home/mods/gen_inspect/ipython/setupext/__init__.py
+home/mods/gen_inspect/ipython/setupext/install_data_ext.py
+home/mods/gen_inspect/ipython/tools/
+home/mods/gen_inspect/log.py
+home/mods/gen_inspect/loglik_esed.pk
+home/mods/gen_inspect/ndf.xlsx
+home/mods/gen_inspect/ohesed__etl.pk
+home/mods/gen_inspect/primer_sequence.pk
+home/mods/gen_inspect/prm__ece.pk
+home/mods/gen_inspect/prm__ece1.pk
+home/mods/gen_inspect/prm_gp.pk
+home/mods/gen_inspect/prsg__g.pk
+home/mods/gen_inspect/prsg__g1.pk
+home/mods/gen_inspect/prsg__g2.pk
+home/mods/gen_inspect/prsg__g2a.pk
+home/mods/gen_inspect/prsg__g3.pk
+home/mods/gen_inspect/prsg__g4.pk
+home/mods/gen_inspect/prsg__g5.pk
+home/mods/gen_inspect/stats.pk
+home/mods/gen_inspect/tmp.py
+home/mods/gen_inspect/tmp_label_dump.txt
+home/mods/models/music_vae/__pycache__/
+home/mods/models/performance_rnn/__pycache__/
+home/mods/models/pianoroll_rnn_nade/__pycache__/
+home/mods/models/polyphony_rnn/__pycache__/
+home/mods/models/shared/__pycache__/
+home/mods/music/__pycache__/
+home/mods/pipelines/__pycache__/
+home/mods/protobuf/__pycache__/
+home/notebooks/
+home/refs/
+home/scripts/
+home/versions/__pycache__/
+home/versions/music_vae/train/checkpoint
+home/versions/music_vae/train/events.out.tfevents.1532821605.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1532821698.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1532823802.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1532823880.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533300784.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533302622.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533302680.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533303604.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533303654.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533304547.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533304597.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533304677.alberts-iMac
+W
+ould remove home/versions/music_vae/train/events.out.tfevents.1533304725.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533322264.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533322311.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533322990.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533323039.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533323231.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533323281.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533323363.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533323416.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533323850.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533323899.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533324118.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533324169.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533329062.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533329126.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533329635.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533329702.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533339083.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533339150.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533342853.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533343026.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533351904.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533352067.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533401407.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533401487.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533401506.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533401597.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533401725.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533401994.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533404233.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533404327.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533404814.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533404817.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533405177.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533405179.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533405298.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533405516.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533405550.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533405704.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533406133.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533406172.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533407118.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533407203.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533407424.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533407441.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533407565.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533407782.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533408514.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533408735.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533408897.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533409145.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533409579.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533409780.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533409868.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533410004.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533412372.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533412586.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533415185.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533415458.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533416015.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533416205.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533429646.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533449483.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533449681.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533450279.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533450465.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533450642.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533450839.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533480834.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533482569.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533483301.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533483490.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533670951.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533675091.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533675629.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533676033.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533676158.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533676444.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533678263.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533681662.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533683891.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533684272.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533687921.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533687987.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533746442.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533746956.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533747229.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533747346.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533748602.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533748827.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533748852.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533749168.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533749309.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533749570.alberts-iMac
+ho
+me/versions/music_vae/train/events.out.tfevents.1533749765.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533749851.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533749972.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533750041.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533750081.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751304.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751375.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751450.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751505.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751537.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751605.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751624.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751734.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533751950.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533752362.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533752545.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533752763.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533752996.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533754007.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533754097.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533755545.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533755705.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533755863.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533755866.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533756082.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533756271.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533756504.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533768612.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533768614.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533769034.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533769037.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533774630.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533774633.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533846902.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533846906.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533853240.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533853297.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533854386.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533854389.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533855465.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533855468.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533855683.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533855685.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533856642.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533856644.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533856703.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533856706.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533856984.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533857547.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533857594.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533857699.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533857748.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533857845.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533860104.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533860107.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533863016.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533863018.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533863139.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533863142.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533863324.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533863327.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533865428.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533865431.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533865518.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533865524.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533865589.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533865593.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533868317.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533868320.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533878721.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533880908.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533881165.alberts-iMac
+home/versions/music_vae/train/events.out.tfevents.1533881170.alberts-iMac
+home/versions/music_vae/train/graph.pbtxt
+home/versions/music_vae/train/model.ckpt-1.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-1.index
+home/versions/music_vae/train/model.ckpt-1.meta
+home/versions/music_vae/train/model.ckpt-163.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-163.index
+home/versions/music_vae/train/model.ckpt-163.meta
+home/versions/music_vae/train/model.ckpt-323.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-323.index
+home/versions/music_vae/train/model.ckpt-323.meta
+home/versions/music_vae/train/model.ckpt-481.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-481.index
+home/versions/music_vae/train/model.ckpt-481.meta
+home/versions/music_vae/train/model.ckpt-500.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-500.index
+home/versions/music_vae/train/model.ckpt-500.meta
+home/versions/music_vae/train/model.ckpt-501.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-501.index
+home/versions/music_vae/train/model.ckpt-501.meta
+home/versions/music_vae/train/model.ckpt-502.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-502.index
+home/versions/music_vae/train/model.ckpt-502.meta
+home/versions/music_vae/train/model.ckpt-503.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-503.index
+home/versions/music_vae/train/model.ckpt-503.meta
+home/versions/music_vae/train/model.ckpt-504.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-504.index
+home/version
+s/music_vae/train/model.ckpt-504.meta
+home/versions/music_vae/train/model.ckpt-505.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-505.index
+home/versions/music_vae/train/model.ckpt-505.meta
+home/versions/music_vae/train/model.ckpt-506.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-506.index
+home/versions/music_vae/train/model.ckpt-506.meta
+home/versions/music_vae/train/model.ckpt-507.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-507.index
+home/versions/music_vae/train/model.ckpt-507.meta
+home/versions/music_vae/train/model.ckpt-508.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-508.index
+home/versions/music_vae/train/model.ckpt-508.meta
+home/versions/music_vae/train/model.ckpt-509.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-509.index
+home/versions/music_vae/train/model.ckpt-509.meta
+home/versions/music_vae/train/model.ckpt-510.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-510.index
+home/versions/music_vae/train/model.ckpt-510.meta
+home/versions/music_vae/train/model.ckpt-511.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-511.index
+home/versions/music_vae/train/model.ckpt-511.meta
+home/versions/music_vae/train/model.ckpt-512.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-512.index
+home/versions/music_vae/train/model.ckpt-512.meta
+home/versions/music_vae/train/model.ckpt-513.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-513.index
+home/versions/music_vae/train/model.ckpt-513.meta
+home/versions/music_vae/train/model.ckpt-514.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-514.index
+home/versions/music_vae/train/model.ckpt-514.meta
+home/versions/music_vae/train/model.ckpt-515.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-515.index
+home/versions/music_vae/train/model.ckpt-515.meta
+home/versions/music_vae/train/model.ckpt-516.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-516.index
+home/versions/music_vae/train/model.ckpt-516.meta
+home/versions/music_vae/train/model.ckpt-517.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-517.index
+home/versions/music_vae/train/model.ckpt-517.meta
+home/versions/music_vae/train/model.ckpt-518.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-518.index
+home/versions/music_vae/train/model.ckpt-518.meta
+home/versions/music_vae/train/model.ckpt-519.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-519.index
+home/versions/music_vae/train/model.ckpt-519.meta
+home/versions/music_vae/train/model.ckpt-520.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-520.index
+home/versions/music_vae/train/model.ckpt-520.meta
+home/versions/music_vae/train/model.ckpt-521.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-521.index
+home/versions/music_vae/train/model.ckpt-521.meta
+home/versions/music_vae/train/model.ckpt-522.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-522.index
+home/versions/music_vae/train/model.ckpt-522.meta
+home/versions/music_vae/train/model.ckpt-523.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-523.index
+home/versions/music_vae/train/model.ckpt-523.meta
+home/versions/music_vae/train/model.ckpt-524.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-524.index
+home/versions/music_vae/train/model.ckpt-524.meta
+home/versions/music_vae/train/model.ckpt-525.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-525.index
+home/versions/music_vae/train/model.ckpt-525.meta
+home/versions/music_vae/train/model.ckpt-526.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-526.index
+home/versions/music_vae/train/model.ckpt-526.meta
+home/versions/music_vae/train/model.ckpt-527.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-527.index
+home/versions/music_vae/train/model.ckpt-527.meta
+home/versions/music_vae/train/model.ckpt-528.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-528.index
+home/versions/music_vae/train/model.ckpt-528.meta
+home/versions/music_vae/train/model.ckpt-529.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-529.index
+home/versions/music_vae/train/model.ckpt-529.meta
+home/versions/music_vae/train/model.ckpt-530.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-530.index
+home/versions/music_vae/train/model.ckpt-530.meta
+home/versions/music_vae/train/model.ckpt-531.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-531.index
+home/versions/music_vae/train/model.ckpt-531.meta
+home/versions/music_vae/train/model.ckpt-532.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-532.index
+home/versions/music_vae/train/model.ckpt-532.meta
+home/versions/music_vae/train/model.ckpt-533.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-533.index
+home/versions/music_vae/train/model.ckpt-533.meta
+home/versions/music_vae/train/model.ckpt-534.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-534.index
+home/versions/music_vae/train/model.ckpt-534.meta
+home/versions/music_vae/train/model.ckpt-535.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-535.index
+home/versions/music_vae/train/model.ckpt-535.meta
+home/versions/music_vae/train/model.ckpt-536.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-536.index
+home/versions/music_vae/train/model.ckpt-536.meta
+home/versions/music_vae/train/model.ckpt-537.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-537.index
+home/versions/music_vae/train/model.ckpt-537.meta
+home/versions/music_vae/train/model.ckpt-538.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-538.index
+home/versions/music_vae/train/model.ckpt-538.meta
+home/versions/music_vae/train/model.ckpt-539.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-539.index
+home/versions/music_vae/train/model.ckpt-539.meta
+home/versions/music_vae/train/model.ckpt-540.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-540.index
+home/versions/music_vae/train/model.ckpt-540.meta
+home/versions/music_vae/train/model.ckpt-541.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-541.index
+home/versions/music_vae/train/model.ckpt-541.meta
+home/versions/music_vae/train/model.ckpt-542.data-00000-of-00001
+home/versions/music_vae/train/model.ckpt-542.index
+home/versions/music_vae/train/model.ckpt-542.meta
+home/versions/tfrecords/
+/home/old_unkown/
